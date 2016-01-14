@@ -43,6 +43,8 @@ module.exports = {
             }
         });
         return this;
+        //安装关联包
+        require('atom-package-deps').install('atom-react-native-css');
     },
     deactivate: function() {
         return this;
