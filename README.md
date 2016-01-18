@@ -15,8 +15,8 @@ Can insert JS code: `JS()`<br />
 New metering unit: `vw`, `vh`, `vmax`, `vmin`<br />
 **vw**: device width / 100<br />
 **vh**: device height / 100<br />
-**vmax**: Math.max(vw, vh) / 100<br />
-**vmin**: Math.min(vw, vh) / 100
+**vmax**: Math.max(vw, vh)<br />
+**vmin**: Math.min(vw, vh)
 
 ## Options
 - #### autocomplete
@@ -70,7 +70,7 @@ $colour-base: #656656;
 
 CSS will generate the following:
 
-```javascript
+```js
 // styles.js
 import React, {StyleSheet, Dimensions} from "react-native";
 const {width, height, scale} = Dimensions.get("window"),
@@ -130,5 +130,6 @@ var Component = React.createClass({
     }
 })
 ```
+## Demo
 
 ![demo](http://7oxfk1.com1.z0.glb.clouddn.com/atom-react-native-css-demo.gif)
