@@ -1,15 +1,19 @@
 $colour-base: #656656;
-
-.description {
-	flex: 1;
-	margin: 2 3 4;
-	font-size: 18;
-	text-align: center;
-	color: $colour-base;
-}
-
 .container {
-	padding: 30;
-	margin-top: 65;
-	align-items: center;
+    flex: 1;
+    padding: 0 0.1vmax;
+    margin: 0 0.2vmin;
+    align-items: center;
+}
+.description {
+    width: 50vw;
+    height: 50vh;
+    font-size: 18;
+    text-align: center;
+    color: $colour-base;
+    writing-direction: auto;
+    text-shadow-offset: "JS({width: 0, height: 0})";
+}
+.img {
+    resize-mode: "JS(React.Image.resizeMode.cover)";
 }

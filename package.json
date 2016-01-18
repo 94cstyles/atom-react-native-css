@@ -1,27 +1,34 @@
 {
-  "name": "atom-react-native-css",
-  "main": "./index.js",
-  "version": "0.0.2",
-  "description": "Style React-Native components with css and built in support for SASS",
-  "keywords": [
-    "react-native",
-    "css",
-    "sass",
-    "React Style"
-  ],
-  "repository": "https://github.com/TOP-Chao/atom-react-native-css",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {
-    "atom-package-deps": "^3.0.7",
-    "css": "^2.2.1",
-    "minimatch": "^3.0.0",
-    "node-sass": "^3.4.2",
-    "to-camel-case": "^0.2.1"
-  },
-  "package-deps": [
-    "atom-react-native-autocomplete"
-  ]
+    "name": "atom-react-native-css",
+    "main": "./lib/index.js",
+    "version": "0.0.3",
+    "description": "Style React-Native components with css and built in support for SASS",
+    "keywords": [
+        "react-native",
+        "css",
+        "sass",
+        "React Style"
+    ],
+    "repository": "https://github.com/TOP-Chao/atom-react-native-css",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "dependencies": {
+        "atom-package-deps": "^3.0.7",
+        "css": "^2.2.1",
+        "minimatch": "^3.0.0",
+        "node-sass": "^3.4.2",
+        "to-camel-case": "^0.2.1"
+    },
+    "providedServices": {
+        "autocomplete.provider": {
+            "versions": {
+                "2.0.0": "getProvider"
+            }
+        }
+    },
+    "package-deps": [
+        "atom-react-native-autocomplete"
+    ]
 }

@@ -1,20 +1,33 @@
-module.exports = require('react-native').StyleSheet.create({
-    "description": {
+import React, {StyleSheet, Dimensions} from "react-native";
+const {width, height, scale} = Dimensions.get("window"),
+    vw = width / 100,
+    vh = height / 100,
+    vmin = Math.min(vw, vh),
+    vmax = Math.max(vw, vh);
+
+export default StyleSheet.create({
+    "container": {
         "flex": 1,
-        "marginTop": 2,
-        "marginRight": 3,
-        "marginBottom": 4,
-        "marginLeft": 3,
+        "paddingTop": 0,
+        "paddingRight": 0.1 * vmax,
+        "paddingBottom": 0,
+        "paddingLeft": 0.1 * vmax,
+        "marginTop": 0,
+        "marginRight": 0.2 * vmin,
+        "marginBottom": 0,
+        "marginLeft": 0.2 * vmin,
+        "alignItems": "center"
+    },
+    "description": {
+        "width": 50 * vw,
+        "height": 50 * vh,
         "fontSize": 18,
         "textAlign": "center",
-        "color": "#656656"
+        "color": "#656656",
+        "writingDirection": "auto",
+        "textShadowOffset": {width: 0, height: 0}
     },
-    "container": {
-        "paddingTop": 30,
-        "paddingRight": 30,
-        "paddingBottom": 30,
-        "paddingLeft": 30,
-        "marginTop": 65,
-        "alignItems": "center"
+    "img": {
+        "resizeMode": React.Image.resizeMode.cover
     }
 });
