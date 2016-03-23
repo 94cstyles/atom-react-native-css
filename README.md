@@ -10,24 +10,33 @@ apm install atom-react-native-css
 
 Or search for `atom-react-native-css` in Atom settings view.
 
+## File support
+Because `node-sass` installation errors often，Now the default does not support ` sass ` file。
+If you use the `node-sass` this error:
+```
+At The `libsass` binding was not found in .... /node-sass/vendor/**/binding.node
+```
+[look here for details](http://stackoverflow.com/questions/34326516/task-sass-not-found-using-grunt-with-patternlab/34334221#34334221)
+
 ## Newly added
 Can insert JS code: `JS()`<br />
-New metering unit: `vw`, `vh`, `vmax`, `vmin`<br />
+New metering unit: `vw`, `vh`, `vmax`, `vmin`, `scale`<br />
 **vw**: device width / 100<br />
 **vh**: device height / 100<br />
 **vmax**: Math.max(vw, vh)<br />
 **vmin**: Math.min(vw, vh)
 
 ## Options
-- #### autocomplete
-    Enable autocomplete React Style'
-
-    *Default:* `true`
-
 - #### compileCSS
     Enable compile React Style'
 
     *Default:* `true`
+
+- #### enableSass
+    Enable Sass file and install node-sass
+
+    *Default:* `false`
+
 
 - #### Input files
     Enter the file path or directory. Please read [minimatch](https://github.com/TOP-Chao/atom-file-watchers#minimatch) matching rules

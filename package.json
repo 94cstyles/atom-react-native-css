@@ -1,7 +1,7 @@
 {
     "name": "atom-react-native-css",
     "main": "./lib/index.js",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "Style React-Native components with css and built in support for SASS",
     "keywords": [
         "react-native",
@@ -15,10 +15,8 @@
         "atom": ">=1.0.0 <2.0.0"
     },
     "dependencies": {
-        "atom-package-deps": "^3.0.7",
         "css": "^2.2.1",
         "minimatch": "^3.0.0",
-        "node-sass": "^3.4.2",
         "to-camel-case": "^0.2.1"
     },
     "providedServices": {
@@ -27,8 +25,5 @@
                 "2.0.0": "getProvider"
             }
         }
-    },
-    "package-deps": [
-        "atom-react-native-autocomplete"
-    ]
+    }
 }
