@@ -16,7 +16,8 @@ If you use the `node-sass` this error:
 ```
 At The `libsass` binding was not found in .... /node-sass/vendor/**/binding.node
 ```
-[look here for details](http://stackoverflow.com/questions/34326516/task-sass-not-found-using-grunt-with-patternlab/34334221#34334221)
+[look here for details](http://stackoverflow.com/questions/34326516/task-sass-not-found-using-grunt-with-patternlab/34334221#34334221),
+If you follow the above solutions still wrong, then I am sorry only use css files.
 
 ## Newly added
 Can insert JS code: `JS()`<br />
