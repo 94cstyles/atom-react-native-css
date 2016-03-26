@@ -22,12 +22,17 @@ export default StyleSheet.create({
         "width": 50 * vw,
         "height": 50 * vh,
         "fontSize": 18,
+        "fontFamily": "ProximaNova-Semibold",
         "textAlign": "center",
         "color": "#656656",
         "writingDirection": "auto",
         "textShadowOffset": {width: 0, height: 0}
     },
     "img": {
+        "marginTop": 0,
+        "marginRight": 1,
+        "marginBottom": 2,
+        "marginLeft": 3,
         "resizeMode": React.Image.resizeMode.cover
     }
 });
