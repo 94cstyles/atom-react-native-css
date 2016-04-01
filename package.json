@@ -1,7 +1,7 @@
 {
     "name": "atom-react-native-css",
     "main": "./lib/index.js",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "Style React-Native components with css and built in support for SASS",
     "keywords": [
         "react-native",
