@@ -26,7 +26,9 @@ export default StyleSheet.create({
         "textAlign": "center",
         "color": "#656656",
         "writingDirection": "auto",
-        "textShadowOffset": {width: 0, height: 0}
+        "textShadowOffset": {width: 0, height: 0},
+        "letterSpacing": 0.7,
+        "marginTop": -20
     },
     "img": {
         "marginTop": 0,
