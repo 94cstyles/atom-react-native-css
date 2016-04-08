@@ -6,7 +6,7 @@ $colour-base: #656656;
     align-items: center;
 }
 .description {
-    width: 50vw;
+    width: "-.5vw";
     height: 50vh;
     font-size: 18;
     font-family: ProximaNova-Semibold;
@@ -14,8 +14,9 @@ $colour-base: #656656;
     color: $colour-base;
     writing-direction: auto;
     text-shadow-offset: "JS({width: 0, height: 0})";
-    letter-spacing: 0.7px;
+    letter-spacing: .7px;
     margin-top: -20px;
+    font-weight: "700";
 }
 .img {
     margin: 0 1px 2rem 3em;

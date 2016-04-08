@@ -1,4 +1,4 @@
-import React, {StyleSheet, Dimensions} from "react-native";
+import React, {StyleSheet, Dimensions, PixelRatio} from "react-native";
 const {width, height, scale} = Dimensions.get("window"),
     vw = width / 100,
     vh = height / 100,
@@ -19,7 +19,7 @@ export default StyleSheet.create({
         "alignItems": "center"
     },
     "description": {
-        "width": 50 * vw,
+        "width": -.5 * vw,
         "height": 50 * vh,
         "fontSize": 18,
         "fontFamily": "ProximaNova-Semibold",
@@ -28,7 +28,8 @@ export default StyleSheet.create({
         "writingDirection": "auto",
         "textShadowOffset": {width: 0, height: 0},
         "letterSpacing": 0.7,
-        "marginTop": -20
+        "marginTop": -20,
+        "fontWeight": "700"
     },
     "img": {
         "marginTop": 0,
