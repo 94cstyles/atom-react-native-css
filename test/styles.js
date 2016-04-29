@@ -6,6 +6,9 @@ const {width, height, scale} = Dimensions.get("window"),
     vmax = Math.max(vw, vh);
 
 export default StyleSheet.create({
+    "child": {
+        "width": 5 * vw
+    },
     "container": {
         "flex": 1,
         "paddingTop": 0,
