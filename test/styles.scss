@@ -6,6 +6,7 @@ $colour-base: #656656;
     padding: 0 0.1vmax;
     margin: 0 0.2vmin;
     align-items: center;
+    font-weight: "300";
 }
 .description {
     width: "-.5vw";
@@ -18,7 +19,7 @@ $colour-base: #656656;
     text-shadow-offset: "JS({width: 0, height: 0})";
     letter-spacing: .7px;
     margin-top: -20px;
-    font-weight: "700";
+    font-weight: 700;
 }
 .img {
     margin: 0 1px 2rem 3em;

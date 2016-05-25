@@ -19,7 +19,8 @@ export default StyleSheet.create({
         "marginRight": 0.2 * vmin,
         "marginBottom": 0,
         "marginLeft": 0.2 * vmin,
-        "alignItems": "center"
+        "alignItems": "center",
+        "fontWeight": "300"
     },
     "description": {
         "width": -.5 * vw,
@@ -31,7 +32,10 @@ export default StyleSheet.create({
         "writingDirection": "auto",
         "textShadowOffset": {width: 0, height: 0},
         "letterSpacing": 0.7,
-        "marginTop": -20,
+        "marginTopTop": -20,
+        "marginTopRight": -20,
+        "marginTopBottom": -20,
+        "marginTopLeft": -20,
         "fontWeight": "700"
     },
     "img": {
