@@ -15,7 +15,7 @@ export default StyleSheet.create({
         "paddingRight": 0.1 * vmax,
         "paddingBottom": 0,
         "paddingLeft": 0.1 * vmax,
-        "marginTop": 0,
+        "marginTop": -20,
         "marginRight": 0.2 * vmin,
         "marginBottom": 0,
         "marginLeft": 0.2 * vmin,
@@ -32,10 +32,7 @@ export default StyleSheet.create({
         "writingDirection": "auto",
         "textShadowOffset": {width: 0, height: 0},
         "letterSpacing": 0.7,
-        "marginTopTop": -20,
-        "marginTopRight": -20,
-        "marginTopBottom": -20,
-        "marginTopLeft": -20,
+        "marginTop": -20,
         "fontWeight": "700"
     },
     "img": {
