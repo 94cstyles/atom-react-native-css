@@ -15,6 +15,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "consistent-path": "^2.0.3",
     "css": "^2.2.1",
     "glob": "^7.0.3",
     "minimatch": "^3.0.0",

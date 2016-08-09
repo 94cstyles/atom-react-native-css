@@ -19,6 +19,17 @@ At The `libsass` binding was not found in .... /node-sass/vendor/**/binding.node
 [To download the missing file](https://github.com/sass/node-sass/releases),
 If you follow the above solutions still wrong, then I am sorry only use css files.
 
+## Alternative to local node-sass installation
+If using a local `node-sass` package fails for you, you can install `node-sass` globally and enable the **useGlobalSass** option to be able to use .sass files once again.
+
+Take into consideration that this approach will use the same `node-sass` version for all your projects.
+
+To install `node-sass` globally follow this step:
+
+```bash
+$ npm install -g node-sass
+```
+
 ## Newly added
 Can insert JS code: `JS()`<br />
 New metering unit: `vw`, `vh`, `vmax`, `vmin`, `scale`<br />
@@ -35,6 +46,11 @@ New metering unit: `vw`, `vh`, `vmax`, `vmin`, `scale`<br />
 
 - #### enableSass
     Enable Sass file and install node-sass
+
+    *Default:* `false`
+
+- #### useGlobalSass
+    Enables Sass file parsing using a **globally** installed **node-sass** package
 
     *Default:* `false`
 
