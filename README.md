@@ -1,4 +1,4 @@
-# atom-react-native-css package
+# atom-react-native-css (The project stop maintenance)
 React-native-css turns valid CSS/SASS into the Facebook subset of CSS. <br/> Source:([https://github.com/sabeurthabti/react-native-css](https://github.com/sabeurthabti/react-native-css))
 
 ## Install
